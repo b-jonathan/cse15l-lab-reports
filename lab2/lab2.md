@@ -4,9 +4,51 @@
 ## First /add-message:
 ![chat1](img/chat1.png)
 
+Methods called: 
+```
+handleRequest()
+```
 
+Arguments:
+```
+url =  localhost:4000/add-message?s=hi&user=jason
+```
+Fields:
+```
+parameters = ["s=hi","user=jason"]
+s = ["s","hi"]
+user = ["user","jason"]
+conversation = "jason: hi\n"
+```
+How Fields Change:
+```
+parameters, s and user all change because the query being inputted changes.
+conversation changes because it is appended by the variable s[1] and user[1].
+```
 ## Second /add-message:
 ![chat2](img/chat2.png)
+
+Methods called: 
+```
+handleRequest()
+```
+
+Arguments:
+```
+url =  localhost:4000/add-message?s=hello&user=brandon
+```
+Fields:
+```
+parameters = ["s=hello","user=brandon"]
+s = ["s","he;;p"]
+user = ["user","brandon"]
+conversation = "jason: hi\nbrandon: hello\n"
+```
+How Fields Change:
+```
+parameters, s and user all change because the query being inputted changes.
+conversation changes because it is appended by the variable s[1] and user[1].
+```
 
 ## Absolute Path to Private Key
 ![privatekey](img/privatekey.png)
