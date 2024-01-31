@@ -2,9 +2,12 @@
 
 ![Image](cdNoArg.png)
 
-WD -> /home/lecture1
+WD: 
+```
+/home/lecture1
+```
 
-Explanation -> cd stands for change directory. When no argument is given, it defaults to changing directory to the parent directory
+Explanation -> cd stands for change directory. When no argument is given, it defaults to changing directory to the home directory of /
 
 Error? -> No
 
@@ -12,7 +15,10 @@ Error? -> No
 
 ![Image](cdDirArg.png)
 
-WD -> /home/lecture1
+WD: 
+```
+/home/lecture1
+```
 
 Explanation -> cd stands for change directory. When a directory argument is given, working directory changes into the argument given
 
@@ -22,7 +28,10 @@ Error? -> No
 
 ![Image](cdFileArg.png)
 
-WD -> /home/lecture1
+WD: 
+```
+/home/lecture1
+```
 
 Explanation ->  cd stands for change directory. When a file argument is given, an error is outputted because a file is not considered a directory
 
@@ -32,7 +41,10 @@ Error? -> Yes
 
 ![Image](lsNoArg.png)
 
-WD -> /home/lecture1
+WD: 
+```
+/home/lecture1
+```
 
 Explanation -> ls lists all of the options in the given directory. The output is the options in the lecture1 directory because this is the default output with no argument given.
 
@@ -42,7 +54,10 @@ Error? -> No
 
 ![Image](lsDirArg.png)
 
-WD -> /home/lecture1
+WD: 
+```
+/home/lecture1
+```
 
 Explanation -> ls lists all of the options in the given directory. The output is the options in the messages directory because the argument given is messages
 
@@ -52,7 +67,10 @@ Error? -> No
 
 ![Image](lsFileArg.png)
 
-WD -> /home/lecture1
+WD: 
+```
+/home/lecture1
+```
 
 Explanation -> ls lists all of the options in the given directory. The only output is Hello.Java because a file has no other possible options to choose from.
 
@@ -62,7 +80,10 @@ Error? -> No
 
 ![Image](catNoArg.png)
 
-WD -> /home/lecture1
+WD: 
+```
+/home/lecture1
+```
 
 Explanation -> cat concantenates the content from the files given as an argument. This does not output an error but terminal waits until either a valid file name is given or Ctrl + C is 
 inputted.
@@ -73,7 +94,10 @@ Error? -> No
 
 ![Image](catDirArg.png)
 
-WD -> /home/lecture1
+WD: 
+```
+/home/lecture1
+```
 
 Explanation -> cat concantenates the content from the files given as an argument. This outputs an error as a directory does not have any content to print.
 
@@ -83,7 +107,10 @@ Error? -> yes
 
 ![Image](catFileArg.png)
 
-WD -> /home/lecture1
+WD: 
+```
+/home/lecture1
+```
 
 Explanation -> cat concantenates the content from the files given as an argument. The output is the content of messages/en-us.txt as that was the argument given.
 
