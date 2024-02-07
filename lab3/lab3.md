@@ -22,3 +22,30 @@
 
 ## Symptom
 ![Symptoms](img/symptom.png)
+
+## The Bug (Before vs After)
+
+Before:
+```
+static void reverseInPlace(int[] arr) {
+  for (int i = 0; i < arr.length; i += 1) {
+    arr[i] = arr[arr.length - i - 1];
+  }
+}
+```
+
+After:
+```
+static void reverseInPlace(int[] arr) {
+  for (int i = 0; i < arr.length / 2; i += 1) {
+    int temp = arr[i];
+    arr[i] = arr[arr.length - i - 1];
+    arr[arr.length - i - 1] = temp;
+  }
+}
+```
+
+Explanation:
+
+The reason why the code before did not work is because it attempted to reverse the list by looping through the entire array. This doesnt work because after the halfway point, the array would be replacing the data at the index with itself because the data in the first half of the list was already replaced.
+
