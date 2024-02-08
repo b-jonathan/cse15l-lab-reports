@@ -49,6 +49,8 @@ Explanation:
 
 The reason why the code before did not work is because it attempted to reverse the list by looping through the entire array. This doesnt work because after the halfway point, the array would be replacing the data at the index with itself because the data in the first half of the list was already replaced.
 
+The solution fixes this bug because it replaces the data at the first half and the second half at the same time and the loop only goes through the first half of the list.
+
 
 # Part 2 (grep options)
 
@@ -121,7 +123,7 @@ $  grep -m 1 "PLANES" 911report/chapter-1.txt
 "WE HAVE SOME PLANES"
 ```
 
-This command returns the first line that the word "PLANES" appears in the 911report/chapter-1.txt file. In this context, allows user to see the very first line a word appears in a file
+This command returns the first line that the word "PLANES" appears in the 911report/chapter-1.txt file. In this context, allows user to see the very first line a word appears in a file which is useful.
 
 ## grep -C --context=NUM
 
@@ -152,6 +154,6 @@ biomed/1471-2091-3-4.txt-          based on three standards and had correlation 
 
 ```
 
-This command returns the first line and the file where the word "emission spectroscopy" appears and also 3 lines of context before and after that line appears. Useful because it allows users to have a better idea of when/where a pattern appears and in what file it appears in.
+This command returns the first line and the file where the word "emission spectroscopy" appears and also 3 lines of context before and after that line appears. Used in combination with -r, it is useful because it allows users to have a better idea of when/where a pattern appears and in what file it appears in.
 
 
