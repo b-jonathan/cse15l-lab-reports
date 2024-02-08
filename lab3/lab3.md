@@ -49,3 +49,21 @@ Explanation:
 
 The reason why the code before did not work is because it attempted to reverse the list by looping through the entire array. This doesnt work because after the halfway point, the array would be replacing the data at the index with itself because the data in the first half of the list was already replaced.
 
+
+# Part 2 (grep options)
+
+## grep -r
+
+
+
+## grep -l
+
+
+
+## grep -c
+
+
+
+## grep -m --max-count=NUM
+
+
