@@ -38,7 +38,7 @@ After cloning, changed directory into lab7 (autocompleted by tab) then ls'd to f
 Keys pressed: 
 
 ```
-v i m <shift + l> <tab> . j <tab> <enter> <shift + down> <up> <up> <up> e c w 2 <esc> : w q
+v i m <shift + l> <tab> . j <tab> <enter> <shift + down> <up> <up> <up> e c w 2 <esc> : w q <enter>
 ```
 
 Problem with test is that there is an index1 written instead of index2. First, use vim to open the ListExamples.java (autocompleted with tabs) and then navigate with <shfit + down> and <up> to reach the line with the incorrect index. Then, use e to reach the end of the word index1 then use c w 2 to change the last character from 1 -> 2. Escape to leave change mode and finally use :wq to save the changes made.
@@ -60,7 +60,7 @@ bash test.sh was one command above vim ListExamples.java in the search history s
 Keys Pressed:
 
 ```
-g i t a d d . g i t c o m <tab> - m " f i x e d t e s t . s h "
+g i t a d d . <enter> g i t c o m <tab> - m " f i x e d t e s t . s h " <enter>
 ```
 
 Had to manually write most of the commands except for using <tab> to autocomplete commit
