@@ -13,7 +13,7 @@ How do you think you can use jdb to find the data points at a certain line for e
 
 ## 3. Debugging Things
 
-![debug_pic](img/edstembug.png)
+![debug_pic](img/edstemdebug.png)
 
 From the test input of {2, 5, 3, 2}, it is expected that the loop will go 
 
