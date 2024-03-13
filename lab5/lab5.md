@@ -1,6 +1,6 @@
 ## 1. Original Post
 
-![original post](edsymptom.png)
+![original post](img/edsymptom.png)
 
 The symptom is that the algorithm to find the last atom is showing the wrong code.
 The student guesses that the problem with the algorithm lies somewhere within a wrong conditioning for the for loop in the algorithm.
@@ -13,7 +13,7 @@ How do you think you can use jdb to find the data points at a certain line for e
 
 ## 3. Debugging Things
 
-![debug_pic](edstembug.png)
+![debug_pic](img/edstembug.png)
 
 From the test input of {2, 5, 3, 2}, it is expected that the loop will go 
 
